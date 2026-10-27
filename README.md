@@ -31,4 +31,13 @@ python -m flask --app backend run --host 127.0.0.1 --port 5002
 
 ## Submission status
 
-Prepared and tested locally. Published to https://github.com/aruzhanrysbayeva/Back-End-Development-Pictures. IBM Cloud deployment is pending. Local screenshots and execution reports document local execution.
+Prepared and tested locally. Published to https://github.com/aruzhanrysbayeva/Back-End-Development-Pictures. IBM Cloud deployment was verified; local and cloud evidence are identified separately.
+
+
+## Verified cloud deployment
+
+IBM Code Engine, port 8000, provided icr-secret; minimum scale 1. Public /health returned status OK.
+
+Application: https://pictures.2ggnmp3ielrx.us-south.codeengine.appdomain.cloud
+
+The course lab is temporary. MongoDB and SQLite use demonstration storage; do not treat this environment as a persistent production deployment. No administrator password or service secret is committed.
