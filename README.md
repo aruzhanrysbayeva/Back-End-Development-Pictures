@@ -1,5 +1,11 @@
 # Back-End-Development-Pictures
 
+Public README URL: https://github.com/aruzhanrysbayeva/Back-End-Development-Pictures/blob/main/README.md
+
+Public repository: https://github.com/aruzhanrysbayeva/Back-End-Development-Pictures
+
+Environment Setup: Python 3.14; create a virtual environment with `python -m venv .venv`, activate it, then run `python -m pip install -r requirements.txt`. Service configuration and verification commands are documented below.
+
 Pictures URLs REST service, completed from the official [IBM starter](https://github.com/ibm-developer-skills-network/luggb-Back-End-Development-Pictures).
 Original starter attribution and license are retained. Changes were prepared with AI assistance and should be reviewed by the learner before submission.
 
